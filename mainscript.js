@@ -346,5 +346,4 @@ titles.forEach(function(item){
 let savedList = [];
 function saving(){
     savedList = [];
-    const savedIngred = 
 }
