@@ -1,0 +1,23 @@
+th,td {
+    border: 1px solid black;
+    text-align: center;
+}
+table{
+    display: inline;
+}
+.inStock {
+    background-color: rgb(0, 255, 106);
+    font: bold; 
+}
+.craftable {
+    background-color:coral;
+}
+.inStock.craftable {
+    background-color:blueviolet !important;
+}
+.title {
+    background-color: none !important;
+}
+.title:last-child {
+    display:none;
+}
